@@ -16,6 +16,9 @@
 		214534511DADFE5800C63851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2145344F1DADFE5800C63851 /* LaunchScreen.storyboard */; };
 		2145345C1DADFE6300C63851 /* FetchedResultsIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2145345B1DADFE6300C63851 /* FetchedResultsIssueTests.m */; };
 		214534671DADFE6300C63851 /* FetchedResultsIssueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 214534661DADFE6300C63851 /* FetchedResultsIssueUITests.m */; };
+		214534781DAE001B00C63851 /* Product+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 214534751DAE001B00C63851 /* Product+CoreDataClass.m */; };
+		214534791DAE001B00C63851 /* Product+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 214534771DAE001B00C63851 /* Product+CoreDataProperties.m */; };
+		2145347C1DAE004900C63851 /* ProductsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2145347B1DAE004900C63851 /* ProductsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		214534621DADFE6300C63851 /* FetchedResultsIssueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchedResultsIssueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		214534661DADFE6300C63851 /* FetchedResultsIssueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FetchedResultsIssueUITests.m; sourceTree = "<group>"; };
 		214534681DADFE6500C63851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214534741DAE001B00C63851 /* Product+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Product+CoreDataClass.h"; sourceTree = "<group>"; };
+		214534751DAE001B00C63851 /* Product+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Product+CoreDataClass.m"; sourceTree = "<group>"; };
+		214534761DAE001B00C63851 /* Product+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Product+CoreDataProperties.h"; sourceTree = "<group>"; };
+		214534771DAE001B00C63851 /* Product+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Product+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2145347A1DAE004900C63851 /* ProductsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsTableViewController.h; sourceTree = "<group>"; };
+		2145347B1DAE004900C63851 /* ProductsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +112,16 @@
 		2145343D1DADFE4E00C63851 /* FetchedResultsIssue */ = {
 			isa = PBXGroup;
 			children = (
+				214534741DAE001B00C63851 /* Product+CoreDataClass.h */,
+				214534751DAE001B00C63851 /* Product+CoreDataClass.m */,
+				214534761DAE001B00C63851 /* Product+CoreDataProperties.h */,
+				214534771DAE001B00C63851 /* Product+CoreDataProperties.m */,
 				214534411DADFE5000C63851 /* AppDelegate.h */,
 				214534421DADFE5100C63851 /* AppDelegate.m */,
 				214534441DADFE5200C63851 /* ViewController.h */,
 				214534451DADFE5200C63851 /* ViewController.m */,
+				2145347A1DAE004900C63851 /* ProductsTableViewController.h */,
+				2145347B1DAE004900C63851 /* ProductsTableViewController.m */,
 				214534471DADFE5400C63851 /* Main.storyboard */,
 				2145344D1DADFE5600C63851 /* Assets.xcassets */,
 				2145344F1DADFE5800C63851 /* LaunchScreen.storyboard */,
@@ -277,9 +292,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2145344C1DADFE5600C63851 /* FetchedResultsIssue.xcdatamodeld in Sources */,
+				214534781DAE001B00C63851 /* Product+CoreDataClass.m in Sources */,
 				214534461DADFE5300C63851 /* ViewController.m in Sources */,
 				214534431DADFE5100C63851 /* AppDelegate.m in Sources */,
+				2145347C1DAE004900C63851 /* ProductsTableViewController.m in Sources */,
 				214534401DADFE5000C63851 /* main.m in Sources */,
+				214534791DAE001B00C63851 /* Product+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
